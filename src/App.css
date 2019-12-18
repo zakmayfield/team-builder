@@ -19,3 +19,30 @@ input{
   border-radius: 3px;
   padding: 0.5vw 0.5vw;
 }
+
+.deleteButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 2vh auto;
+  padding: .5vh 2vw;
+  border-radius: 3px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.deleteButton:active{
+  background: rgb(160, 0, 0);
+}
+
+.card{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 2vh auto;
+  width: 500px;
+}

@@ -14,6 +14,7 @@ const TeamForm = (props) => {
       ...teamMember,
       [e.target.name]: e.target.value
     })
+    console.log(e.target.name)
     console.log(e.target.value)
   }
 
@@ -31,7 +32,7 @@ const TeamForm = (props) => {
           First and Last Name:
           <input 
             type='text'
-            name="firstLastName"
+            name="name"
             placeholder="John Marston"
             onChange={handleChanges} 
           />
