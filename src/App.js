@@ -48,9 +48,7 @@ function App() {
   -- logging team from this func gives an array of objects containing the team members, so somehow if we can filter through that array of objects and find the id we can then target that person */}
 
   const removeFromTeam = () => {
-    let personId = team.map(person => person.id)
-   
-    console.log('the team', team)
+    console.log('removeFromTeam function fired')
   }
 
   return (
